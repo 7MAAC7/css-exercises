@@ -1,0 +1,26 @@
+.clas-bg-r-f{
+    background-color: #FFA7A7;
+    font-family: Verdana, "DejaVu Sans", sans-serif;
+}
+.clas-bg-r-f.pha-n3{
+    font-size: 24px;
+}
+/* 
+esta fue mi aproximacion al problema
+p,div {
+    background-color: ;
+    font-family: Verdana, "DejaVu Sans", sans-serif;
+}
+   #pha-n3{
+    font-size: 24px;
+} */
+#div-n2{
+    color:blue;
+    font-size: 36px;
+}
+
+#div-n4{
+    background-color: #58d68d ;
+    font-size: 24px;
+    font-weight: bold;
+}

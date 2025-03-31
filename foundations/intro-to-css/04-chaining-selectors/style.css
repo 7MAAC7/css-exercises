@@ -1,1 +1,9 @@
 /* Add CSS Styling */
+.avatar.proportioned{
+    width: 300px;
+    /*en la solucion indica height:auto;  para que se ponga automaticamente el alto y sea proporcional*/
+}
+.avatar.distorted{ /*Revisar bien que los nombres de las clases coincidan*/
+    width: 200px;
+    height: 400px;
+}

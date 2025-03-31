@@ -1,0 +1,30 @@
+.button{
+    font-size: 28px;
+    font-family: Helvetica, 'Times New Roman',sans-serif;
+}
+.cme{
+    background-color: black;
+    color: hsl(0, 0%, 100%);
+}
+.nome{
+    background-color:#e7ff0c;
+}
+/*aunque difire de la solucion esprada, cumple con el objetivo de cerse como la imagen, 
+lo correcto segun la solucion era crear dos clases distintas y luego unirlas:
+ejemplo: tomemos que le pusimos a las clases boton2 y boton 2
+
+quedaria asi;
+.boton1, .boton2{
+    font-size: 28px;
+    font-family: Helvetica, 'Times New Roman',sans-serif;
+}
+
+y luego cada uno con sus especidficos;
+.boton1{
+    background-color: black;
+    color: hsl(0, 0%, 100%);
+}
+.boton2{
+   
+
+*/
