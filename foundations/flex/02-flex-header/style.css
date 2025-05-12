@@ -1,6 +1,11 @@
 .header  {
   font-family: monospace;
   background: papayawhip;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /*esto me falto*/
+  padding: 8px;
 }
 
 .logo {
@@ -9,17 +14,28 @@
   color: tomato;
   background: white;
   padding: 4px 32px;
+  
 }
 
 ul {
+  display: flex;
   /* this removes the dots on the list items*/
   list-style-type: none;
-}
+  /*eso me falto*/
+  margin: 0;
+  padding: 0;
+  gap: 8px;
 
+}
+.left-links
+.right-links{
+  /*que existieran estas dos clases me confundio bastante, pensando que deberia poner algo, ya que si no eran necesaries para que las pondrian*/
+  
+}
 a {
   font-size: 22px;
   background: white;
-  padding: 8px;
+  padding: 0px;
   /* this removes the line under the links */
   text-decoration: none;
 }
