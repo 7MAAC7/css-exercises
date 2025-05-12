@@ -12,6 +12,17 @@ body {
   background: white;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
+  /*Mi solucion
+  display: flex;
+  align-items: center;
+  padding-left: 16px;
+  padding-right: 16px;
+  gap:8px;
+  */
+  /* prueba haber que cambia con la solucion establecida*/
+  display: flex;
+  justify-content: space-between;
+  padding: 8px;
 }
 
 .profile-image {
@@ -27,6 +38,7 @@ body {
   font-size: 32px;
   font-weight: 900;
   font-style: italic;
+
 }
 
 button {
@@ -35,6 +47,8 @@ button {
   background: rebeccapurple;
   color: white;
   padding: 8px 24px;
+  /* Mi solucion a dejar esto pegado a la derecha
+  margin-left: auto; */
 }
 
 a {
@@ -45,4 +59,19 @@ a {
 
 ul {
   list-style-type: none;
+  /* Mi solucion
+  display:flex;
+  gap:16px;
+  */
+  /**/
+  display: flex;
+  margin: 0;
+  padding: 0;
+  gap: 16px;
+}
+
+.left, .right {
+  display: flex;
+  align-items: center;
+  gap: 16px;
 }

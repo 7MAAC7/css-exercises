@@ -10,6 +10,29 @@ img {
 .title {
   font-size: 36px;
   font-weight: 900;
+  text-align: center;
+  margin-bottom: 32px;
+}
+.items{
+  width: 200px;
+  
+  /*Mi solucion fue perfecta, pero cometi pequeños errores, el primero seria en vez de poner
+    varios text-align:center; con poner uno en body bastaba
+    y el segundo no fue un error, solo que en vez de usar width se uso max-width en la solucion de TOP
+  */
+}
+.conteiner{
+  display: flex;
+  text-align: center;
+  flex-direction: row;
+  justify-content: center;
+  gap: 52px;
+}
+.text{
+  text-align: center;
+  flex-wrap: wrap;
+  
+  
 }
 
 /* do not edit this footer */

@@ -14,12 +14,24 @@ body {
   align-items: center;
   justify-content: center;
 }
-
+.header{
+  font-weight: bold;
+  font-size: x-large;
+}
+.title{ /*Viendo la solucion, solo metio el boton dentro del header, luego aplico display flex y space-beetwen 
+  hizo que los separara
+  */
+  display: flex;
+}
 .modal {
   background: white;
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  /* =/ la solucino puso los mismos 16px para padding and gap */
+  display:flex;
+  padding: 10px;
+  gap: 16px;
 }
 
 .icon {
@@ -33,6 +45,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-shrink:0; /* Buena, nada mas que decir*/
 }
 
 .close-button {
@@ -48,8 +61,13 @@ body {
   justify-content: center;
   border: 1px solid #eee;
   padding: 0;
+  margin-left: auto;
 }
 
+.text{/* la solucion solo agrego el margin-bottom y de solo 16px*/
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
 button {
   cursor: pointer;
   padding: 8px 16px;
@@ -67,3 +85,8 @@ button.cancel {
   border: 1px solid #ddd;
   color: royalblue;
 }
+/* esta a sido la mas dificil hasta ahora porque no tenia ni idea de como empezar, de hecho me rendi ypense en solo ver la solucion
+pero al ver que el html tenia un aproximamiento similar al que habia probado y no habia cambiado nada
+decidi probar de nuevo, a lo cual pude hacer que se pareciera, aunque hubieron cambios con pequeñas diferencias
+creo que lo logre.
+*/
